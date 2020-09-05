@@ -1,9 +1,13 @@
-## Implement a simple ATM controller
-Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw
+# Implement a simple ATM controller
+Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw<br>
+This is a simple implementation of a atm controller using a command line user interface.
+
+## Example
+<img src="./example.png" align="center"><br>
 
 ## Test in local
 ```
-python 3.7 main.py
+python3.7 main.py
 ```
 
 ## Test in atm
@@ -14,11 +18,11 @@ This is a test where there is a listener and publisher code: <br>
 In *atm_controller/include*:
 1. In one terminal run:
 ```
-python 3.7 real_atm_listener.py
+python3.7 real_atm_listener.py
 ```
 2. In another one run
 ```
-python 3.7 sample.py y
+python3.7 sample.py y
 ```
 3. In the first terminal follow the steps.
 

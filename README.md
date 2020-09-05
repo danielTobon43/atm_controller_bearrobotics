@@ -1,6 +1,6 @@
 # Implement a simple ATM controller
 Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw<br>
-This is a simple implementation of a atm controller using a command line user interface.
+This is a simple implementation of an atm controller using a command line user interface.
 
 ## Example
 <img src="./example.png" align="center"><br>
@@ -11,7 +11,7 @@ python3.7 main.py
 ```
 
 ## Test in atm
-This is a test where there is a listener and publisher code: <br>
+This is a test with a listener and publisher node: <br>
 - Listener: read a string for testing the controller in the atm
 - Publisher: send the string to test the controller in the atm
 
